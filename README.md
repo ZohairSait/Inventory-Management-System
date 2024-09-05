@@ -24,3 +24,11 @@ This is an Inventory Management System built with Flask and MySQL. It provides A
 **Python 3.x <br>
 MySQL server**
 
+
+# Getting Started
+**Installation**  <br>
+**Clone the repository**  <br>
+git clone https://github.com/yourusername/inventory-management-system.git
+cd inventory-management-system
+
+
