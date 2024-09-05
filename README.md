@@ -28,9 +28,9 @@ MySQL server**
 # Getting Started
 **Installation**  <br>
 **1. Clone the repository**  <br>
-git clone https://github.com/yourusername/inventory-management-system.git  
+  git clone https://github.com/yourusername/inventory-management-system.git  
 
-cd inventory-management-system
+  cd inventory-management-system
 
 
 
