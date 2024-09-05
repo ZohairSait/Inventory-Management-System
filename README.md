@@ -4,6 +4,7 @@ This is an Inventory Management System built with Flask and MySQL. It provides A
 
 # Project Structure
 <br>
+
 **app.py** : Contains the Flask application and API endpoints.<br>
 **config.py** : Configuration file for database connection. <br>
 **requirements.txt** : Lists the required Python packages. <br>
@@ -17,4 +18,9 @@ This is an Inventory Management System built with Flask and MySQL. It provides A
 **Manage suppliers** : Create, read, update, and delete suppliers. <br>
 **Manage purchases** : Create, read, update, and delete purchases.  <br>
 **Manage sales** : Create, read, update, and delete sales. <br>
+
+
+# Prerequisites
+**Python 3.x
+MySQL server**
 
