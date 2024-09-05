@@ -21,6 +21,6 @@ This is an Inventory Management System built with Flask and MySQL. It provides A
 
 
 # Prerequisites
-**Python 3.x
+**Python 3.x <br>
 MySQL server**
 
