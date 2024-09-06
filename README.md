@@ -131,4 +131,4 @@ The server will start on http://localhost:80. Access the API using tools like Po
 ```
 - Click Send. You should receive a login success message if the credentials are correct.
 
-- Similarly you can use the **CRUD** operation for 
+- Similarly you can use the **CRUD** operation for each resource, i.e on Products, Suppliers, Purchases and Sales etc.
