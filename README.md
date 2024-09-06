@@ -1,6 +1,6 @@
 # Inventory-Management-System
 
-This is an Inventory Management System built with Flask and MySQL. It provides APIs to manage products, suppliers, purchases, sales, and users. The application allows CRUD operations on these entities and user authentication.
+This is an Inventory Management System built using Python's Flask framework and MySQL database. It provides RESTful APIs to manage products, suppliers, purchases, sales, and user autentication. The application allows CRUD operations on these entities and user authentication. 
 
 # Project Structure
 <br>
