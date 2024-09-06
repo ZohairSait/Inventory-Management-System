@@ -35,10 +35,19 @@ This is an Inventory Management System built with Flask and MySQL. It provides A
 ```bash
 git clone https://github.com/your-username/inventory-management-system.git
 cd inventory-management-system
+```
 
+### Set Up a Virtual Environment
 
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
 
+### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
 
-
-
-
+### Configure the Database
+- Ensure you have MySQL installed and running.
