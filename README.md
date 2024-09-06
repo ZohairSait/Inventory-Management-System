@@ -86,3 +86,18 @@ pip install -r requirements.txt
 - POST /sales: Create a new sale.
 - PUT /sales/<sale_id>: Update a sale by ID.
 - DELETE /sales/<sale_id>: Delete a sale by ID.
+
+## Usage
+
+1. Run the Flask application:
+   ```bash
+python app.py
+```
+The server will start on http://localhost:80. Access the API using tools like Postman or cURl.
+
+Testing with Postman
+Create a User
+Open Postman.
+Set the request type to POST.
+Enter the URL: http://localhost:80/create_user.
+In the Body tab, select raw and JSON format.
