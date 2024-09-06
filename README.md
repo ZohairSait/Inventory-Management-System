@@ -80,7 +80,7 @@ pip install -r requirements.txt
 - PUT /purchases/<purchase_id>: Update a purchase by ID.
 - DELETE /purchases/<purchase_id>: Delete a purchase by ID.
 
-##3 Sales
+### Sales
 - GET /sales: Retrieve all sales.
 - GET /sales/<sale_id>: Retrieve a sale by ID.
 - POST /sales: Create a new sale.
@@ -97,17 +97,22 @@ python app.py
 
 The server will start on http://localhost:80. Access the API using tools like Postman or cURl.
 
+
 ## Testing with Postman
 
-###Create a User
+### Create a User
 - Open Postman.
 - Set the request type to POST.
 - Enter the URL: http://localhost:80/create_user.
 - In the Body tab, select raw and JSON format.
 - Provide the JSON payload:
+
   ```bash
 {
     "username": "testuser",
     "password": "testpassword"
 }
+
 ```
+
+ 
