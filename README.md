@@ -29,9 +29,36 @@ MySQL server**
 **Installation**  <br>
 **1. Clone the repository**  <br>
 
-  git clone https://github.com/yourusername/inventory-management-system.git  
+  • git clone https://github.com/yourusername/inventory-management-system.git  
 
-  cd inventory-management-system
+  • cd inventory-management-system
 
 
+# Inventory Management System
+
+## Overview
+
+This project is an Inventory Management System built using Python with Flask for the web framework and MySQL for the database. It provides APIs to manage products, suppliers, purchases, sales, and user authentication.
+
+## Features
+
+- **Products**: CRUD operations for managing products.
+- **Suppliers**: CRUD operations for managing suppliers.
+- **Purchases**: CRUD operations for managing purchases.
+- **Sales**: CRUD operations for managing sales.
+- **User Authentication**: Register and authenticate users.
+
+## Technologies Used
+
+- **Flask**: A micro web framework for Python.
+- **mysql-connector-python**: MySQL driver for Python.
+- **Werkzeug**: Provides utilities for password hashing and checking.
+
+## Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/inventory-management-system.git
+cd inventory-management-system
 
