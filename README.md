@@ -107,12 +107,28 @@ The server will start on http://localhost:80. Access the API using tools like Po
 - In the Body tab, select raw and JSON format.
 - Provide the JSON payload:
 
-  ```bash
-{
+```bash
+  {
     "username": "testuser",
     "password": "testpassword"
 }
-
 ```
+- Click Send. You should receive a success message.
 
+### Login
+
+- Open Postman.
+- Set the request type to POST.
+- Enter the URL: http://localhost:80/login.
+- In the Body tab, select raw and JSON format.
+- Provide the JSON payload:
  
+ ```bash
+  {
+    "username": "testuser",
+    "password": "testpassword"
+}
+```
+- Click Send. You should receive a login success message if the credentials are correct.
+
+- Similarly you can use the **CRUD** operation for 
