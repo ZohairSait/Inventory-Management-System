@@ -55,49 +55,59 @@ pip install -r requirements.txt
 
 ## API Endpoints
 
-## User Authentication
+### User Authentication
 - POST /login: Authenticate a user and receive a login response.
 - POST /create_user: Create a new user with a hashed password
 
-## Products
+### Products
 - GET /products: Retrieve all products.
 - GET /products/<product_id>: Retrieve a product by ID.
 - POST /products: Create a new product.
 - PUT /products/<product_id>: Update a product by ID.
 - DELETE /products/<product_id>: Delete a product by ID.
 
-## Suppliers
+### Suppliers
 - GET /suppliers: Retrieve all suppliers.
 - GET /suppliers/<supplier_id>: Retrieve a supplier by ID.
 - POST /suppliers: Create a new supplier.
 - PUT /suppliers/<supplier_id>: Update a supplier by ID.
 - DELETE /suppliers/<supplier_id>: Delete a supplier by ID.
 
-## Purchases
+### Purchases
 - GET /purchases: Retrieve all purchases.
 - GET /purchases/<purchase_id>: Retrieve a purchase by ID.
 - POST /purchases: Create a new purchase.
 - PUT /purchases/<purchase_id>: Update a purchase by ID.
 - DELETE /purchases/<purchase_id>: Delete a purchase by ID.
 
-## Sales
+##3 Sales
 - GET /sales: Retrieve all sales.
 - GET /sales/<sale_id>: Retrieve a sale by ID.
 - POST /sales: Create a new sale.
 - PUT /sales/<sale_id>: Update a sale by ID.
 - DELETE /sales/<sale_id>: Delete a sale by ID.
 
-## Usage
+
+### Usage
 
 1. Run the Flask application:
-   ```bash
+```bash
 python app.py
 ```
+
 The server will start on http://localhost:80. Access the API using tools like Postman or cURl.
 
-Testing with Postman
-Create a User
-Open Postman.
-Set the request type to POST.
-Enter the URL: http://localhost:80/create_user.
-In the Body tab, select raw and JSON format.
+## Testing with Postman
+
+###Create a User
+- Open Postman.
+- Set the request type to POST.
+- Enter the URL: http://localhost:80/create_user.
+- In the Body tab, select raw and JSON format.
+- Provide the JSON payload:
+  ```bash
+{
+    "username": "testuser",
+    "password": "testpassword"
+}
+```
